@@ -3,14 +3,14 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>American Specilaist Finance Updates by OFD</title>
+  <title>American Specilaist Finance Updates by OFD - Status</title>
   <link rel="stylesheet" href="app-default.css">
   <script src="app-datasets.js"></script>
   <script src="app-vars.js"></script>
   <script>
     // Overide app-vars.js autorun & dataset selection
     //autorun = true;
-    dLS = "https://docs.google.com/spreadsheets/d/e/2PACX-1vS_7GhfMYEiaaexEjjK92TLzMbynEUB33v8dYth3lRBREwdP0JLtj-Pz59N0HRZZTArzt3JFc-XJnEf/pub?gid=0&single=true&output=csv";
+    //dLS = "";
     // Pick CSV Source from app-datasets.js or URL String of own source
   </script>
   <script src="app-interface.js"></script>
@@ -35,16 +35,14 @@
         <caption>OFD Data</caption>
         <thead>
           <tr>
-            <th>Date</th>
-            <th>Submitted by</th>
-            <th>Main Link</th>
-            <th>Apply</th>
+            <th>Part</th>
+            <th>URL</th>
+            <th>Status</th>
           </tr>
         </thead>
 
         <tbody id="datafromcsv">
           <tr>
-            <td></td>
             <td>Loading data from Google Sheets</td>
             <td>https://open-finance.data.anyoldserver.com/</td>
             <td>this page is loading your data from a Google based data source.</td>
